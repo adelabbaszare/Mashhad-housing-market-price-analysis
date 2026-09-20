@@ -1,8 +1,11 @@
 # 🏠 Mashhad Housing Market Price Analysis
+
 ![Mashhad Image](https://upload.wikimedia.org/wikipedia/commons/3/3f/Mashhad_City_in_the_morning.jpg)
 ![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/Mashhad-Housing-Market-Price-Analysis)
 ![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/Mashhad-Housing-Market-Price-Analysis)
 ![Libraries](https://img.shields.io/badge/Pandas-Seaborn-green.svg)
+
+[English](README.md) | [فارسی](README_fa.md)
 
 ## 📌 Project Overview
 
@@ -12,7 +15,11 @@ This analysis provides valuable insights for buyers, sellers, and real estate an
 
 ## 📂 The Dataset
 
-The analysis is based on the `mashhad_apartment_sales_2025.csv` dataset. It contains **22,403** records with the following features:
+The analysis is based on the **Mashhad Apartment Sales Data** dataset, published on Kaggle:
+
+**Dataset:** [Mashhad Apartment Sales Data](https://www.kaggle.com/datasets/adelzare/mashhad-apartment-sales-data/data)
+
+The dataset is provided as `mashhad_apartment_sales_2025.csv` and contains **22,403** apartment sale listings with the following features:
 
 | Feature | Description |
 | :--- | :--- |
@@ -64,21 +71,21 @@ The notebook covers the following specific analyses:
 
 ## 🚀 How to Run This Project
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/adelabbaszare/Mashhad-Housing-Market-Price-Analysis.git
-    cd Mashhad-Housing-Market-Price-Analysis
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/adelabbaszare/Mashhad-Housing-Market-Price-Analysis.git
+   cd Mashhad-Housing-Market-Price-Analysis
+   ```
 
-2.  **Install dependencies:**
-    ```bash
-    pip install pandas numpy matplotlib seaborn
-    ```
+2. **Install dependencies:**
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+   ```
 
-3.  **Launch Jupyter Notebook:**
-    ```bash
-    jupyter notebook mashhad-housing-market-prices-analysis.ipynb
-    ```
+3. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook mashhad-housing-market-prices-analysis.ipynb
+   ```
 
 Alternatively, you can view and run the notebook directly on **Kaggle** by visiting the [dataset page](https://www.kaggle.com/code/adelzare/mashhad-housing-market-prices-analysis).
 
@@ -86,12 +93,12 @@ Alternatively, you can view and run the notebook directly on **Kaggle** by visit
 
 *Note: This repository contains the source code to generate the following charts:*
 
-1.  **Price Distribution:** Histogram showing the distribution of apartment prices.
-2.  **Price vs. Area:** Regression plot confirming the strong relationship between area and price.
-3.  **Top Neighborhoods:** Bar chart of the 20 most expensive neighborhoods (filtered by listings >50).
-4.  **Price vs. Rooms:** Box plot illustrating how the number of bedrooms affects the median price.
-5.  **Building Age:** Hexbin plot showing the density of transactions and price trends by building age.
-6.  **Amenities Impact:** Comparative bar charts showing the added value of elevators, parking, and storage.
+1. **Price Distribution:** Histogram showing the distribution of apartment prices.
+2. **Price vs. Area:** Regression plot confirming the strong relationship between area and price.
+3. **Top Neighborhoods:** Bar chart of the 20 most expensive neighborhoods (filtered by listings >50).
+4. **Price vs. Rooms:** Box plot illustrating how the number of bedrooms affects the median price.
+5. **Building Age:** Hexbin plot showing the density of transactions and price trends by building age.
+6. **Amenities Impact:** Comparative bar charts showing the added value of elevators, parking, and storage.
 
 ## 🤝 Contributing
 
@@ -103,5 +110,5 @@ This project is open-source and available for use under the MIT License.
 
 ---
 
-**Data Source:** [Kaggle - Mashhad Apartment Sales Data](https://www.kaggle.com/datasets/adelabbaszare/mashhad-apartment-sales-data)  
-**Last Updated:** August 2026
+**Data Source:** [Kaggle - Mashhad Apartment Sales Data](https://www.kaggle.com/datasets/adelzare/mashhad-apartment-sales-data/data)  
+**Last Updated:** September 2026
